@@ -15,6 +15,7 @@ set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
   ${scripts_Custom}
   Custom/duelReset.cpp
+  Custom/spells.cpp
 )
 
 message("  -> Prepared: Custom")
