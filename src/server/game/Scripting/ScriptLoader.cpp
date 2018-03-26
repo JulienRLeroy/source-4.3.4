@@ -46,6 +46,7 @@ void AddSC_guild_spell_scripts();
 void AddSC_SmartSCripts();
 
 //Commands
+void AddSC_recupcommand();
 void AddSC_anticheat_commandscript();
 void AddSC_account_commandscript();
 void AddSC_achievement_commandscript();
@@ -830,6 +831,7 @@ void AddSpellScripts()
 
 void AddCommandScripts()
 {
+	AddSC_recupcommand();
     AddSC_anticheat_commandscript();
     AddSC_account_commandscript();
     AddSC_achievement_commandscript();
@@ -1598,6 +1600,8 @@ void AddBattlegroundScripts()
 /* This is where custom scripts' loading functions should be declared. */
 void AddSC_player_resetduel_script();
 void AddSC_spells();
+void AddSC_npc_enchantment();
+
 #endif
 
 void AddCustomScripts()
@@ -1606,5 +1610,7 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
 	AddSC_player_resetduel_script();
 	AddSC_spells();
+	AddSC_npc_enchantment();
+	
 #endif
 }

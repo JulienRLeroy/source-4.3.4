@@ -26,6 +26,7 @@ class spells : public CreatureScript
 		case 2: // Téléportation Zone Duel
 		{
 			pPlayer->CLOSE_GOSSIP_MENU(); // Fermeture du menu
+			// pPlayer->AddAura(98978, true);
 			pPlayer->TeleportTo(1, -8811.073242, 335.773315, 346.419830, 5.517128); // (id de la Map, coordonnées X, coordonnées Y, coordonnées Z, Orientation)
 			break;
 		}

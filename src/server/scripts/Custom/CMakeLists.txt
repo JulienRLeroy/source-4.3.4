@@ -16,6 +16,7 @@ set(scripts_STAT_SRCS
   ${scripts_Custom}
   Custom/duelReset.cpp
   Custom/spells.cpp
+  Custom/npc_enchant.cpp
 )
 
 message("  -> Prepared: Custom")
